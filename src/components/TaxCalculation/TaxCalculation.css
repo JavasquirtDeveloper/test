@@ -1,0 +1,29 @@
+.TaxCalculation{
+  padding-left: 32px;
+  width: 100%;
+  max-width: 488px;
+}
+
+.TaxCalculation__input{
+  box-sizing: border-box;
+  border-radius: 3px;
+  margin: 8px 0;
+  padding-left: 5px ;
+  border: 1px solid #DFE3E6;
+
+}
+
+.input{
+  box-sizing: border-box;
+  border-radius: 3px;
+  width: 100%;
+  max-width: 448px;
+  height: 40px;
+  
+}
+
+.TaxCalculation__button{
+ color: #EA0029;
+ cursor: pointer;
+}
+
