@@ -1,0 +1,48 @@
+
+.button__wrapper__Tax{
+  display: flex;
+justify-content: center;
+width: 100%;
+max-width: 488px;
+height: 56px;
+margin: 0 auto;
+margin-bottom: 32px;
+background: linear-gradient(255.35deg, #DC3131 0.83%, rgba(255, 79, 79, 0) 108.93%), #FF5E56;
+box-shadow: 0px 0px 24px rgba(234, 0, 41, 0.33);
+border-radius: 6px;
+cursor: pointer;
+}
+.button__wrapper__Tax:hover{
+  background:red
+}
+
+.button__wrapper{
+display: flex;
+justify-content: center;
+width: 198px;
+height: 56px;
+margin: 0 auto;
+margin-bottom: 32px;
+border: solid 2px #ffff;
+background: linear-gradient(255.35deg, #DC3131 0.83%, rgba(255, 79, 79, 0) 108.93%), #FF5E56;
+box-shadow: 0px 0px 24px rgba(234, 0, 41, 0.33);
+border-radius: 6px;
+cursor: pointer;
+}
+
+.button__wrapper:hover{
+  background: #ffff;
+}
+
+.button__text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+}
+
+.button__wrapper:hover .button__text{
+  color: #000;
+
+}
