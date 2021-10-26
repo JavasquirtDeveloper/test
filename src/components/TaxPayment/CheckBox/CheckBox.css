@@ -1,0 +1,33 @@
+.TaxPayment__checboxs__item{
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+  border-bottom: 1px solid #DFE3E6;
+  margin-bottom: 16px;
+}
+
+.TaxPayment__checboxs__item span{
+  color: rgb(126, 125, 125);
+  margin-left: 5px;
+}
+
+.TaxPayment__checboxs__item p{
+  margin-left: 30px;
+}
+
+.checbox__input{
+  position: absolute;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.checbox__input:checked + .check__box{
+  background-image: url(/src/img/checkActive.png)
+}
+
+.check__box{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-image: url(/src/img/checkBox.png) ;
+}
