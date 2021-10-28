@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/test/static/css/main.2a4ae4f8.chunk.css",
+    "main.js": "/test/static/js/main.8ee388e0.chunk.js",
+    "main.js.map": "/test/static/js/main.8ee388e0.chunk.js.map",
+    "runtime-main.js": "/test/static/js/runtime-main.e4f2124d.js",
+    "runtime-main.js.map": "/test/static/js/runtime-main.e4f2124d.js.map",
+    "static/js/2.f7697931.chunk.js": "/test/static/js/2.f7697931.chunk.js",
+    "static/js/2.f7697931.chunk.js.map": "/test/static/js/2.f7697931.chunk.js.map",
+    "static/js/3.adf82564.chunk.js": "/test/static/js/3.adf82564.chunk.js",
+    "static/js/3.adf82564.chunk.js.map": "/test/static/js/3.adf82564.chunk.js.map",
+    "index.html": "/test/index.html",
+    "static/css/main.2a4ae4f8.chunk.css.map": "/test/static/css/main.2a4ae4f8.chunk.css.map",
+    "static/js/2.f7697931.chunk.js.LICENSE.txt": "/test/static/js/2.f7697931.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/test/static/media/LabGrotesque-Thin.e4b6b78a.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e4f2124d.js",
+    "static/js/2.f7697931.chunk.js",
+    "static/css/main.2a4ae4f8.chunk.css",
+    "static/js/main.8ee388e0.chunk.js"
+  ]
+}
