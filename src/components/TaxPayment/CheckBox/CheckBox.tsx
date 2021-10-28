@@ -2,18 +2,18 @@ import React from 'react';
 
 type Props = {
   result: number
-  text:string
+  text: string
 }
 
 const CheckBox: React.FC<Props> = ({ result, text }) => {
 
   return (
-        <label className="TaxPayment__checboxs__item">
-          <input type="checkbox" className="checbox__input"></input>
-          <span className="check__box"></span>
-          <p>{Math.ceil(result)}</p>
-          <span>в {text} год</span>
-        </label>
+    <label className="TaxPayment__checboxs__item">
+      <input type="checkbox" className="checbox__input"></input>
+      <span className="check__box"></span>
+      <p>{Math.ceil(result)}</p>
+      <span>в {text} год</span>
+    </label>
   )
 }
 

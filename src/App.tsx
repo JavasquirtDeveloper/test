@@ -5,16 +5,19 @@ import TaxDeductionScreen from './components/TaxDeductionScreen/TaxDeductionScre
 
 import './App.css';
 
+
 const App = () => {
 
   const [click, setClick] = useState<any>(false)
 
   return (
     <div className="App">
-      <div onClick={setClick}>
-        {!click && <Button text="Налоговый вычет" />}
+      <div onClick={()=> {setClick(true)}}>
+        {!click &&
+          <Button text="Налоговый вычет" />
+        }
       </div>
-      {click && <TaxDeductionScreen />}
+      {click && <TaxDeductionScreen exit={()=>{setClick(false)}} />}
     </div>
   );
 }

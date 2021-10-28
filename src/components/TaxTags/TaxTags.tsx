@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 const TaxTags = () => {
   const [click, setlick] = useState<any>(false)
 
-
   return (
     <div className="TaxTags">
       <div className="TaxTags__question">

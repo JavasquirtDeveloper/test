@@ -1,13 +1,17 @@
+import { FC } from 'react';
 import Button from '../Button/Button';
 import TaxCalculation from '../TaxCalculation/TaxCalculation';
 import TaxHeader from '../TaxHeader/TaxHeader';
 import TaxTags from '../TaxTags/TaxTags';
 
+export type HeaderProps = {
+  exit: () => void
+}
 
-const TaxDeductionScreen = () => {
+const TaxDeductionScreen: FC<HeaderProps> = ({ exit }) => {
   return (
     <div className="tax">
-      <TaxHeader />
+      <TaxHeader exit={exit} />
       <TaxCalculation />
       <TaxTags />
       <Button className={"button__wrapper__Tax"} text="Добавить" />

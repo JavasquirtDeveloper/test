@@ -16,6 +16,7 @@
 }
 
 .TaxHeader__exit{
+  cursor: pointer;
   background-image: url(/src/img/exit.png);
   width: 18px;
   height: 18px;
