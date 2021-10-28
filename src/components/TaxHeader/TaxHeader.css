@@ -1,21 +1,21 @@
 
-.TaxHeader__wrapper{
+.tax__header__wrapper{
   padding: 32px 32px 0 32px;
 }
-.TaxHeader__header{
+.tax__header__header{
   display: flex;
   justify-content: space-between;
   font-size: 28px;
   margin-bottom: 16px;
 }
-.TaxHeader__text{
+.tax__header__text{
   max-width: 488px;
   line-height: 24px;
   color: #808080;
   margin-bottom: 24px;
 }
 
-.TaxHeader__exit{
+.tax__header__exit{
   cursor: pointer;
   background-image: url(/src/img/exit.png);
   width: 18px;

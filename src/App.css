@@ -11,7 +11,7 @@
 	.tax{ 
 		width: 552px;
 	}
-  .button__wrapper__Tax{
+  .button__wrapper__tax{
     max-width: 488px;
   }
 }
@@ -19,10 +19,10 @@
 	.tax{
 		width: 453px;
 	}
-  .button__wrapper__Tax{
+  .button__wrapper__tax{
     width: 389px;
   }
-  .TaxCalculation{
+  .tax__calculation{
     padding-right: 32px;
   }
 }
@@ -31,13 +31,13 @@
 		max-width: 320px;
     border-radius: 0px;
 	}
-  .button__wrapper__Tax{
+  .button__wrapper__tax{
     max-width: 288px;
   }
-  .TaxTags{
+  .tax__tags{
     display: grid; 
   }
-  .TaxTags__tag__container{
+  .tax__tags__tag__container{
     display: flex;
     margin-top: 28px;
   }

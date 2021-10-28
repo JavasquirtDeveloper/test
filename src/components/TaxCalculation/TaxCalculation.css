@@ -1,10 +1,10 @@
-.TaxCalculation{
+.tax__calculation{
   padding-left: 32px;
   width: 100%;
   max-width: 488px;
 }
 
-.TaxCalculation__input{
+.tax__calculation__input{
   box-sizing: border-box;
   border-radius: 3px;
   margin-bottom: 65px;
@@ -33,11 +33,11 @@
   height: 40px;
 }
 
-.TaxCalculation__input:hover{
+.tax__calculation__input:hover{
   border: solid 1px;
 }
 
-.TaxCalculation__button {
+.tax__calculation__button {
   outline: none; 
   border: 0;
   background: transparent;

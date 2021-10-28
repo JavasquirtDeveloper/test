@@ -7,14 +7,8 @@ type Props = {
 }
 
 const TaxCalculationInput: React.FC<Props> = ({ start, setClick }) => {
-
-  const sumbit = (value: any) => {
-    setClick(true)
-    start(value.money)
-  }
-
   return (
-    <div className={"TaxCalculation__input"}>
+    <div className="tax__calculation__input">
       <Formik
         initialValues={{ money: '' }}
         validate={values => {
@@ -29,18 +23,23 @@ const TaxCalculationInput: React.FC<Props> = ({ start, setClick }) => {
           }
           return errors;
         }}
-        onSubmit={sumbit}>
+        onSubmit={(values) => {
+          setClick(true)
+          start(Number(values.money))
+          console.log('1');
+          
+        }}>
         <Form className="input__wrapper">
           <Field className="input" type="number" name="money" />
           <ErrorMessage name="money" component="p" className="input__erorr" />
-          <div className="TaxCalculation__button">
-            <button className="TaxCalculation__button" type="submit">
+          <div>
+            <button className="tax__calculation__button" type="submit">
               Рассчитать
             </button>
           </div>
         </Form>
       </Formik>
-    </div>
+    </div >
   )
 }
 

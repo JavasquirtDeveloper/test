@@ -13,8 +13,8 @@ const TaxCalculation = () => {
   }
 
   return (
-    <div className="TaxCalculation">
-      <div className="TaxCalculation__header">
+    <div className="tax__calculation">
+      <div className="tax__calculation__header">
         <p>Ваша зарплата в месяц</p>
       </div>
         <TaxCalculationInput start={start} setClick={()=>{setClick(true)}} />

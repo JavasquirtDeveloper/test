@@ -1,15 +1,15 @@
-.TaxTags{
+.tax__tags{
   display: flex;
   margin: 22px 32px 48px 32px;
 }
-.TaxTags__question{
+.tax__tags__question{
   margin-right: 44px;
   margin-top: 6px;
 }
-.TaxTags__tag__container{
+.tax__tags__tag__container{
   display: flex;
 }
-.TaxTags__tag{
+.tax__tags__tag{
   cursor: pointer;
   align-items: center;
   padding: 6px 12px;
@@ -17,13 +17,13 @@
   border-radius: 50px;
   margin-right: 40px;
 }
-.TaxTags__tag__active{
+.tax__tags__tag__active{
   cursor: pointer;
   align-items: center;
   padding: 6px 12px;
   background: linear-gradient(255.35deg, #DC3131 0.83%, rgba(255, 79, 79, 0) 108.93%), #FF5E56;  border-radius: 50px;
   margin-right: 40px;
 }
-.TaxTags__tag:hover{
+.tax__tags__tag:hover{
   background: linear-gradient(255.35deg, #DC3131 0.83%, rgba(255, 79, 79, 0) 108.93%), #FF5E56;
 }

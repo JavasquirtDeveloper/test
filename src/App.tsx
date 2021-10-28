@@ -5,7 +5,6 @@ import TaxDeductionScreen from './components/TaxDeductionScreen/TaxDeductionScre
 
 import './App.css';
 
-
 const App = () => {
 
   const [click, setClick] = useState<any>(false)

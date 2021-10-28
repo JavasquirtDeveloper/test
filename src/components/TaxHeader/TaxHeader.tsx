@@ -3,12 +3,12 @@ import { HeaderProps } from '../TaxDeductionScreen/TaxDeductionScreen';
 
 const TaxHeader: React.FC<HeaderProps> = ({ exit }) => {
   return (
-    <div className="TaxHeader__wrapper">
-      <div className="TaxHeader__header">
+    <div className="tax__header__wrapper">
+      <div className="tax__header__header">
         <h4>Налоговый вычет</h4>
-        <span onClick={exit} className="TaxHeader__exit"></span>
+        <span onClick={exit} className="tax__header__exit"></span>
       </div>
-      <div className="TaxHeader__text">
+      <div className="tax__header__text">
         <p>
           Используйте налоговый вычет чтобы погасить ипотеку досрочно.Размер налогового вычета составляет не более 13% от своего  официального годового дохода.
         </p>

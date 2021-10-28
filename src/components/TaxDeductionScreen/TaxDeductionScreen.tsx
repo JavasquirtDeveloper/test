@@ -14,7 +14,7 @@ const TaxDeductionScreen: FC<HeaderProps> = ({ exit }) => {
       <TaxHeader exit={exit} />
       <TaxCalculation />
       <TaxTags />
-      <Button className={"button__wrapper__Tax"} text="Добавить" />
+      <Button className={"button__wrapper__tax"} text="Добавить" />
     </div>
   )
 }
